@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<style>
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;  
+        font-size: 30px;
+        text-align: center;
+    }
+    body{
+        background-image: url("https://webartdevelopers.com/blog/wp-content/uploads/2019/02/Pure-CSS3-Gradient-Background-Animation.gif");
+        background-color: rgb(26, 177, 164);
+        background-size: cover;
+    }
+    p{
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    div{
+        padding: 10px;
+        background: rgba(169, 169, 169, 0.7);
+        margin-left: 350px;
+        margin-right: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 15px;
+    }
+    .input-class{
+        margin-top: 5px;
+        padding: 3px;
+        width: 95%;
+        height: 20px;
+        border-radius: 5px;
+    }
+    .submit-button{
+        margin-left: 20%;
+        margin-right: 20%;
+        width: 60%;
+        height: 30px;
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration form</title>
+</head>
+<body>
+    <div>
+      <h1>Registration Form </h1>
+      <label><p>First Name: <br/> <input type="text" placeholder="Enter your first name here" class="input-class" required></p></label>
+      <label><p>Middle Name: <br><input type="text" placeholder="Enter your middle name here" class="input-class"></p></label>
+      <label><p>Last Name: <br><input type="text" placeholder="Enter your last name here" class="input-class"></p></label>
+      <label><p>Course: <select>
+         <option value="Course">Course</option>
+         <option value="CME">CME</option>
+         <option value="ECE">ECE</option>
+         <option value="EEE">EEE</option>
+         <option value="CIVIL">CIVIL</option>
+         </select></p></label>
+      <label><p>Gender: <input type="radio"  name="Gender" required>Male <br/><input type="radio" name="Gender" style="margin-left: 79px; margin-top: 4px;" >Female</p></label>
+      <label><p>Phone: <br><input type="text" value="+91" size="1" maxlength="3"> <input type="text" id="username" name="username" maxlength="10"></p></label>
+      <label><p>Address: <br> <input type="text" style="height:120px; width:300px;" size ="300" ></p></label>
+      <label><p>E-mail: <br> <input type="email" class="input-class"></p></label>
+      <label><p>Password: <br> <input type="password" name="Password" class="input-class"></p></label>
+      <label><p>Conform Password: <br> <input type="password" class="input-class" ></p></label>
+      <label><input type="submit" class="submit-button"></label>
+      </div>
+</body>
+</html>
